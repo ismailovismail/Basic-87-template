@@ -1,0 +1,322 @@
+body,*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+}
+header .container{
+    width: 70%;
+    height:100px;
+}
+header .container .contop{
+width:100%;
+height:100px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+}
+header .container .contop .logo{
+    color:#c0bab6;
+}
+header .container .contop .navs{
+    height: 45px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+header .container .contop .navs .nav{
+    width: 100%;
+    height: 50px;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #232323;
+
+}
+header .container .contop .navs .nav ul{
+    display: flex;
+     height: 50px;
+     width: 100%;
+     align-items: center;
+     list-style-type: none;
+     justify-content: space-evenly;
+
+}
+header .container .contop .navs .nav ul li a{
+display: flex;
+color:#c0bab6;
+text-decoration: none;
+}
+header .container .contop .navs .nav ul li a:hover{
+    color: orange;
+}
+.sec1{
+    width: 100%;
+    height: 560px;
+    justify-content: center;
+  
+    
+}
+
+.sec1 .upmainboxes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sec1 .upmainboxes .mainboxes{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+    
+}
+
+.sec1 .upmainboxes .mainboxes .mainbox .box{
+    background-color: #232323;
+    width: 215px;
+    height: 315px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sec1 .upmainboxes .mainboxes .img{
+    width: 100%;
+    height: 25px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f1eeea;
+
+}
+
+.sec1 .upmainboxes .mainboxes .img .texts{
+    color: gray;
+}
+
+.sec1 .text{
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.sec1 .text pre{
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:22px;
+    color: gray; 
+    line-height: 45px;
+
+ 
+}
+.sec2{
+    width:100%;
+    height: 500px;
+    display: flex;
+justify-content: space-evenly;
+}
+.sec2 .container{
+    width: 75%;
+  height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+
+
+
+}
+.sec2 .container .upcontainer{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sec2 .container .upcontainer .contain1{
+    width:85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+    
+  
+   
+}
+.sec2 .container .upcontainer .contain1 .mainlogo{
+    border: 1px solid black;
+     margin: 30px;
+}
+
+.sec2 .container .upcontainer .contain1 .mainlogo .logo{
+    width: 180px;
+    height: 150px;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+    
+    
+    
+    
+    
+}
+
+.sec2 .container .upcontainer .contain1 .text{
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+    width: 60%;
+    align-items: flex-start;
+    
+
+}
+.sec2 .container .upcontainer .contain1 .text .text1 h4{
+    color: gray;
+    font-size:20px;
+    line-height: 35px;
+}
+.sec2 .container .upcontainer .contain1 .text .text1 p{
+    line-height: 20px;
+    font-size: 15px;
+    color: gray;
+    
+    
+}
+.sec2 .container .upcontainer  .contain1 .foot{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 100px;
+}
+
+.sec2 .container .upcontainer .contain1 .foot footer a{
+    color: orange;
+    text-decoration: none;
+    
+   
+
+}
+
+
+.sec2 .container .upcontainer .contain2{
+    width: 85%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+}
+.sec2 .container .upcontainer .contain2 .text{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 145px;
+    
+}
+.sec2 .container .upcontainer .contain2 .text .text1 h4{
+font-size: 20px;
+line-height: 35px;
+color: gray;
+
+}
+.sec2 .container .upcontainer .contain2 .text .text1 p{
+    line-height: 20px;
+    font-size: 15px;
+    color: gray;
+    width:100%;
+}
+.sec2 .container .upcontainer .contain2 .mainlogo{
+    border: 1px solid black;
+    margin: 30px;
+}
+.sec2 .container .upcontainer .contain2 .mainlogo .logo{
+ width:180px;
+ height: 150px;
+ background-color: #232323;
+ margin: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ font-size: 30px;
+} 
+.sec2 .container .upcontainer .contain2 .foot{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 130px;
+}
+.sec2 .container .upcontainer .contain2 .foot footer a{
+    color: orange;
+    text-decoration: none;
+} 
+.sec2 .container .menu{
+width: 50%;
+height: 370px;
+}
+.sec2 .container .menu .name{
+    line-height: 40px;
+    color: gray;
+}
+.sec2 .container .menu .space1{
+    line-height: 40px;
+}
+.sec2 .container .menu ul li{
+    margin: 8px;
+    color: orange;
+    
+
+}
+
+
+.sec2 .container .menu ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+.sec2 .container .menu ul li a:hover{
+    color: orange;
+}
+.mnpg{
+    background-color: #232323;
+    color: white;
+    height: 55px;
+    display: flex;
+   justify-content: center;
+    
+     
+    
+    
+}
+.mnpg .mnpg1{
+    display: flex;
+    width: 80%;
+    height: 55px;
+    justify-content: space-between;
+    color:gray ;
+    align-items: center;
+   
+}
+.midline{
+  margin-left: 15%;
+  margin-right:15%;
+  color: gray;
+}
